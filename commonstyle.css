@@ -6,10 +6,20 @@
 }
 
 #bigfont {
-    font-size: 60px;
+    font-size: 120px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 #align-right {
     text-align: right;
+}
 
+.searchBar {
+   width: 600px;
+   height: 40px;
+   border-radius: 20px;
 }
