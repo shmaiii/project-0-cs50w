@@ -23,3 +23,13 @@
    height: 40px;
    border-radius: 20px;
 }
+
+.bar {
+    text-align: left;
+    width: 400px;
+    height: auto;
+}
+
+.text-width {
+    width: 200px;
+}

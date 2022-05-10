@@ -7,7 +7,7 @@
     </head>
     <body>
         <div>
-            <a style="font-family: 'Calibri'; font-size: 50px;" href="GoogleSearch.html" type="button">
+            <a style="font-family: 'Calibri'; font-size: 50px; text-decoration: none;" href="GoogleSearch.html" type="button">
                 <span style="color: rgb(14, 135, 221);">G</span><!--
                 --><span style="color: red;">o</span><!--
                 --><span style="color: rgb(245, 174, 7);">o</span><!--
@@ -17,25 +17,29 @@
             </a>
         </div>
 
-        <div>
+        <div style="margin-left: 20px;">
+            <h3 style="font-family: 'Calibri'; color: red;">Advanced Search</h3>
+            <div style="margin-left: 20px;">
             <form action="https://google.com/search">
-                Find Pages with:
+                Find Pages with...
                 
                 <div>
-                    all these words: <input type="text" name="as_q">
+                    all these words: <input class="bar" type="text" name="as_q">
                 </div>
                 <div>
-                    this exact word or phrase: <input type="text" name="as_epq">
+                    this exact word or phrase: <input class="bar" type="text" name="as_epq">
                 </div>
                 <div>
-                    any of these words: <input type="text" name="as_oq">
+                    any of these words: <input class="bar" type="text" name="as_oq">
                 </div>
                 <div>
-                    none of these words: <input type="text" name="as_eq">
+                    none of these words: <input class="bar" type="text" name="as_eq">
                 </div>
+            
 
                 <input type="submit" value="Advanced Search">
             </form>
+        </div>
         </div>
     </body> 
 </html>
