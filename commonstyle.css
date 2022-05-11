@@ -8,7 +8,7 @@
 #bigfont {
     font-size: 120px;
     font-family: 'Calibri';
-    font-weight: bold;
+    font-weight: none;
     margin: 0px;
     padding: 0px;
 
@@ -26,8 +26,8 @@
 
 .bar {
     text-align: left;
-    width: 400px;
-    height: auto;
+    width: 600px;
+    height: 20px;
     float: right;
 }
 
@@ -40,5 +40,5 @@
 }
 
 .search-block {
-    width: 600px;
+    width: 800px;
 }
