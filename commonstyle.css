@@ -28,8 +28,17 @@
     text-align: left;
     width: 400px;
     height: auto;
+    float: right;
 }
 
 .text-width {
     width: 200px;
+}
+
+#criteria {
+    float: left;
+}
+
+.search-block {
+    width: 600px;
 }
