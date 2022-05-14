@@ -26,7 +26,7 @@
 
 .bar {
     text-align: left;
-    width: 600px;
+    width: 70%;
     height: 20px;
     float: right;
 }
@@ -40,5 +40,5 @@
 }
 
 .search-block {
-    width: 800px;
+    width: 60%;
 }

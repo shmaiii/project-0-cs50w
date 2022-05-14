@@ -3,48 +3,60 @@
     <head>
         <title>Google Advanced Search</title>
         <link rel="stylesheet" href="commonstyle.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div>
-            <a style="font-family: 'Calibri'; font-size: 50px; text-decoration: none;" href="index.html" type="button">
-                <span style="color: rgb(14, 135, 221);">G</span><!--
-                --><span style="color: red;">o</span><!--
-                --><span style="color: rgb(245, 174, 7);">o</span><!--
-                --><span style="color: rgb(14, 135, 221);">g</span><!--
-                --><span style="color: green;">l</span><!--
-                --><span style="color: red;">e</span>
-            </a>
+            <div id="align-right" style="float:right"> 
+                <a  href="index.html" type="button" class="btn btn-primary">Google Search</a>
+            </div>
+
+            <div style="float: left">
+                <a style="font-family: 'Calibri'; font-size: 50px; text-decoration: none;" href="index.html" type="button">
+                    <span style="color: rgb(14, 135, 221);">G</span><!--
+                    --><span style="color: red;">o</span><!--
+                    --><span style="color: rgb(245, 174, 7);">o</span><!--
+                    --><span style="color: rgb(14, 135, 221);">g</span><!--
+                    --><span style="color: green;">l</span><!--
+                    --><span style="color: red;">e</span>
+                </a>
+            </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
 
         <div style="margin-left: 20px;">
             <h3 style="font-family: 'Calibri'; color: red;">Advanced Search</h3>
             <div style="margin-left: 20px;">
-            <form class="search-block" action="https://google.com/search">
-               <div> Find Pages with... </div>
-                
-                <br>            
-                <div id="criteria">all these words:</div><input class="bar" type="text" name="as_q">
-                <br>
-                <br>
-                <div id="criteria">this exact word or phrase:</div> <input class="bar" type="text" name="as_epq">
-               
-                <br>
-                <br> 
-                
-                <div id="criteria">any of these words:</div> <input class="bar" type="text" name="as_oq">
-                
-                <br>
-                <br>
-                
-                <div id="criteria">none of these words:</div> <input class="bar" type="text" name="as_eq">
-                
-                <br>
-                <br>
-
-                <input style="background-color:rgb(14, 135, 221); color: white; float: right; " type="submit" value="Advanced Search">
-            </form>
-        </div>
+                <form class="search-block" action="https://google.com/search">
+                    <div> Find Pages with... </div>
+                     
+                     <br>            
+                     <div id="criteria">all these words:</div><input class="bar" type="text" name="as_q">
+                     <br>
+                     <br>
+                     <div id="criteria">this exact word or phrase:</div> <input class="bar" type="text" name="as_epq">
+                    
+                     <br>
+                     <br> 
+                     
+                     <div id="criteria">any of these words:</div> <input class="bar" type="text" name="as_oq">
+                     
+                     <br>
+                     <br>
+                     
+                     <div id="criteria">none of these words:</div> <input class="bar" type="text" name="as_eq">
+                     
+                     <br>
+                     <br>
+     
+                     <input style="background-color:rgb(14, 135, 221); color: white; float: right; " type="submit" value="Advanced Search">
+                 </form>
+            
+            </div>
         </div>
     </body> 
 </html>
